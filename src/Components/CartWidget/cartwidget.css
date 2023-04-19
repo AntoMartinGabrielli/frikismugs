@@ -1,0 +1,15 @@
+.cartWidget{
+    display: flex;
+    flex-direction: row;
+}
+.carrito{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+.numCart{
+    color:black;
+    font-size:larger;
+    font-weight: 500;
+    align-self: center;
+}
