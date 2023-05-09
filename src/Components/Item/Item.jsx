@@ -4,17 +4,18 @@ import Card from "react-bootstrap/Card";
 
 export const Item = ({id, img, stock, titulo, descripcion, precio, categoria}) => {
     return (
-        <Card>
-            <Card.Img src={img}></Card.Img>
-            <Card.Body>
+        <Card className="item">
+            <Card.Img src={img} ></Card.Img>
+            <Card.Body className="itemInfo">
                 <Card.Title>{titulo}</Card.Title>
                 <Card.Text>{descripcion}</Card.Text>
                 <Card.Text>Precio: {precio}</Card.Text>
-                <Button>Detalle</Button>
+                <Button variant="outline-dark" >Detalle</Button>
             </Card.Body>
         </Card>
     )
 }
 
+export default Item;
 
 

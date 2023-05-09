@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding: 0;
+  
 }
 
 .App {
@@ -20,15 +21,19 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  height: 100px;
+  display:flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-body{
+  background-color: #b3b2ae;
+  padding-top: 15px;
+}
 .App-link {
   color: #61dafb;
 }

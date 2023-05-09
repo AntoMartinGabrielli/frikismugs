@@ -1,17 +1,11 @@
 import { useState, useEffect } from "react";
 import { getTazas } from "../../MockTazas";
-import { ItemList } from "../ItemList/ItemList";
+import ItemList from "../ItemList/ItemList";
 
 
 const ItemListContainer =({greeting})=>{
     
     const [tazas, setTazas] = useState([]);
-
-   /*  const getListProduct = new Promise((resolve, rej)=>{
-        setTimeout(()=>{
-            resolve(mockTazas);
-        },2000)
-    }); */
 
     useEffect (()=>{
         getTazas()
@@ -26,7 +20,7 @@ const ItemListContainer =({greeting})=>{
     return (
         <div>
             <h2>{greeting}</h2>
-            <ItemList tazas={tazas}></ItemList>
+            <ItemList listaTazas={tazas}></ItemList>
         </div>
     );
 };
