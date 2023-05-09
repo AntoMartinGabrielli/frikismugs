@@ -1,10 +1,11 @@
 .cartWidget{
     display: flex;
     flex-direction: row;
+    margin:10px;
 }
 .carrito{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     padding: 20px;
 }
 .numCart{

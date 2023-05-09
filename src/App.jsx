@@ -2,8 +2,9 @@ import './App.css';
 import CartWidget from './Components/CartWidget';
 import NavBar from './Components/Navbar';
 import ItemListContainer from './Components/ItemListContainer';
-import Lista from './Components/Lista';
+/* import ItemList from './Components/ItemList'; */
 import Titulo from './Components/Titulo';
+import ItemCount from './Components/ItemCount';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <header className="App-header">
         <NavBar/>
         <ItemListContainer greeting={'¡Bienvenidos a Frikis Mugs!'}/>
+        <ItemCount inicial={1} stock={10} onAdd={(cantidad)=> console.log('Cantidad agregada', cantidad)}></ItemCount>
       </header>
     </div>
   );
