@@ -3,10 +3,16 @@
     padding-top: 0%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
+    color: #282c34;
+}
+.nbButtons{
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 .logoTaza{
     width: 80px;
     height: 80px;
+    margin: 10px;
 }

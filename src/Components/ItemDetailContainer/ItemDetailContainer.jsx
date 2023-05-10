@@ -1,24 +1,27 @@
 import './ItemDetailContainer.css';
 import {useState, useEffect} from 'react';
 import { getTazaById } from '../../MockTazas';
-import Item from '../Item/Item';
+import ItemDetail from '../ItemDetail/ItemDetail';
+import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () =>{
     const [taza, setTaza] = useState(null);
 
-    useEffect(() => {
-        getTazaById('1')
-        .then(resolve =>{
-            setTaza(resolve)
-        })
-        .catch(error => {
-            console.error(error)
-        })
-    },[]);
+    const {itemId} = useParams()
+
+    useEffect( () => {
+        getTazaById(itemId)
+            .then(resolve => {
+                setTaza(resolve)
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    },[itemId])
 
     return (
         <div>
-            <Item {...taza}/>
+            <ItemDetail {...taza}/>
         </div>
     )
 }

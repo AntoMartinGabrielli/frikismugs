@@ -1,22 +1,27 @@
-import { useState, useEffect } from "react";
-import { getTazas } from "../../MockTazas";
+import { useState, useEffect} from "react";
+import { getTazas,  getTazaByCategory } from "../../MockTazas";
 import ItemList from "../ItemList/ItemList";
-
+import { useParams } from 'react-router-dom';
 
 const ItemListContainer =({greeting})=>{
     
     const [tazas, setTazas] = useState([]);
 
-    useEffect (()=>{
-        getTazas()
-        .then(resolve => {
-            setTazas(resolve)
-        })
-        .catch(error => {
-            console.error(error)
-        })
-    }, [])
+    const {categoryId} = useParams()
 
+    useEffect( () => {
+        const asyncFunc = categoryId ? getTazaByCategory : getTazas
+
+        asyncFunc(categoryId)
+            .then(resolve => {
+                setTazas(resolve)
+            })
+            .catch(error =>{
+                console.error(error)
+            })
+    },[categoryId])
+    
+    
     return (
         <div>
             <h2>{greeting}</h2>

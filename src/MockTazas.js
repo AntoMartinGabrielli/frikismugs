@@ -316,7 +316,15 @@ const tazas=[
     export const getTazaById = (tazaId) =>{
         return new Promise ((resolve) =>{
             setTimeout(()=>{
-                resolve (tazas.find (taza => tazas.id === tazaId))
+                resolve (tazas.find (taza => taza.id === tazaId))
+            },500)
+        })
+    }
+
+    export const getTazaByCategory = (tazaCategory) =>{
+        return new Promise ((resolve) =>{
+            setTimeout(()=>{
+                resolve (tazas.filter (taza => taza.categoria === tazaCategory))
             },500)
         })
     }
