@@ -1,7 +1,6 @@
 import CartWidget from "../CartWidget";
 import "./navbar.css";
 import logoTaza from "./imagenes/taza.png"
-/* import Button from 'react-bootstrap/Button'; */
 import { NavLink, Link } from "react-router-dom";
 
 
@@ -12,14 +11,11 @@ const NavBar = () => {
             <img className="logoTaza" src={logoTaza} alt="Logo"/>
             </Link>
             <h1 to='/'>Frikis Mugs</h1>
-            <div>
-                <NavLink to={`/category/HarryPotter`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}/>
-                <NavLink to={`/category/Disney`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}/>
-                <NavLink to={`/category/Series`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}/>
+            <div className="nbBtn">
+                <NavLink className="btn btn-dark" to={'/category/Harry Potter'}>Harry Potter</NavLink>
+                <NavLink className="btn btn-dark" to={'/category/Disney'}>Disney</NavLink>
+                <NavLink className="btn btn-dark" to={'/category/Series'}>Series</NavLink>
             </div>
-            {/* <Button variant="outline-dark">Harry Potter</Button>
-            <Button variant="outline-dark">Disney</Button>
-            <Button variant="outline-dark">Series</Button> */}
             <CartWidget />
         </div>
     );

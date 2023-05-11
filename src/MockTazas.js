@@ -316,7 +316,7 @@ const tazas=[
     export const getTazaById = (tazaId) =>{
         return new Promise ((resolve) =>{
             setTimeout(()=>{
-                resolve (tazas.find (taza => taza.id === tazaId))
+                resolve (tazas.find (taza => taza.id == tazaId))
             },500)
         })
     }
