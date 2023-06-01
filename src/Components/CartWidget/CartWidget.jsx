@@ -1,13 +1,17 @@
 import "./cartwidget.css";
 import carrito from "./imagenes/carrito.png"
-import Button from 'react-bootstrap/Button';
+import { useContext } from "react";
+import { CartContext } from "../../Context/CartContext";
+import {Link} from 'react-router-dom';
 
 const CartWidget = () =>{
+    const {cantidadTotal} = useContext(CartContext)
+
     return (
-        <Button variant="outline-dark" className="cartWidget">
+        <Link to='/cart' variant="outline-dark" className="cartWidget" style={{display: cantidadTotal > 0 ? 'block' : 'none'}}>
             <img className="carrito" src={carrito} alt="carrito-de-compra"/>
-            <p className="numCart">0</p>
-        </Button>
+            {cantidadTotal}
+        </Link>
     );
 };
 

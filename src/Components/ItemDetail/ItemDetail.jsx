@@ -44,4 +44,3 @@ const ItemDetail = ({id,img,stock,titulo,descripcion,precio,categoria}) => {
 
 export default ItemDetail;
 
-/* <ItemCount inicial={1} stock={10} onAdd={(cantidad)=> console.log('Cantidad agregada', cantidad)}></ItemCount> */
