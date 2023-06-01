@@ -1,16 +1,15 @@
 .cartWidget{
     display: flex;
-    flex-direction: row;
+    width: 120px;
     margin:10px;
 }
 .carrito{
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
 }
 .numCart{
     color:#282c34;
-    font-size:larger;
-    font-weight: 500;
-    align-self: center;
+    font-size:x-large;
+    font-weight: 600;
 }

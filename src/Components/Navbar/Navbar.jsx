@@ -12,9 +12,9 @@ const NavBar = () => {
             </Link>
             <h1 to='/'>Frikis Mugs</h1>
             <div className="nbBtn">
-                <NavLink className="btn btn-dark" to={'/category/Harry Potter'}>Harry Potter</NavLink>
-                <NavLink className="btn btn-dark" to={'/category/Disney'}>Disney</NavLink>
-                <NavLink className="btn btn-dark" to={'/category/Series'}>Series</NavLink>
+                <NavLink className="btn btn-outline-dark" to={'/category/Harry Potter'}>Harry Potter</NavLink>
+                <NavLink className="btn btn-outline-dark" to={'/category/Disney'}>Disney</NavLink>
+                <NavLink className="btn btn-outline-dark" to={'/category/Series'}>Series</NavLink>
             </div>
             <CartWidget />
         </div>

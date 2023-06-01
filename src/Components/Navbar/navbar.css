@@ -1,16 +1,17 @@
 .navbar{
-    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     color: #282c34;
     background-color: #b3b2ae;
 }
 .nbBtn{
     display: flex;
     flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
 }
-
 .logoTaza{
     width: 90px;
     height: 90px;
