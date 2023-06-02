@@ -27,7 +27,7 @@ const ItemDetail = ({id,img,stock,titulo,descripcion,precio,categoria}) => {
                 <Card.Body className="itemInfo">
                     <Card.Title>{titulo}</Card.Title>
                     <Card.Text>{descripcion}</Card.Text>
-                    <Card.Text>Precio: {precio}</Card.Text>
+                    <Card.Text>Precio: ${precio}</Card.Text>
                     <Card.Text>Stock disponible: {stock}</Card.Text>
                     <Card.Footer>
                         { cantidadAgregada > 0 ? (

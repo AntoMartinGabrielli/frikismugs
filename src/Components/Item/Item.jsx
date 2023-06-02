@@ -10,7 +10,7 @@ export const Item = ({id, img, stock, titulo, descripcion, precio, categoria}) =
             <Card.Body className="itemInfo">
                 <Card.Title>{titulo}</Card.Title>
                 <Card.Text>{descripcion}</Card.Text>
-                <Card.Text>Precio: {precio}</Card.Text>
+                <Card.Text>Precio: ${precio}</Card.Text>
                 <Link to={`/item/${id}`} className='Option'>
                 <Button variant="outline-dark">Detalle</Button>
                 </Link>

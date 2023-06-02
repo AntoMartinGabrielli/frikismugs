@@ -4,7 +4,7 @@ const tazas=[
             stock:10,
             titulo:"Nemo",
             descripcion: "Taza de Disney, Nemo",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:2,
@@ -12,7 +12,7 @@ const tazas=[
             stock:10,
             titulo:"Darth Vader",
             descripcion: "Taza de Disney, Guerra de las Galaxias",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:3,
@@ -20,7 +20,7 @@ const tazas=[
             stock:10,
             titulo:"BB-8",
             descripcion: "Taza de Disney, Guerra de las Galaxias",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:4,
@@ -28,7 +28,7 @@ const tazas=[
             stock:10,
             titulo:"Groot",
             descripcion: "Taza de Disney, Guardianes de la Galaxia",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:5,
@@ -36,7 +36,7 @@ const tazas=[
             stock:10,
             titulo:"Yoda",
             descripcion: "Taza de Disney, Guerra de las Galaxias",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:6,
@@ -44,7 +44,7 @@ const tazas=[
             stock:10,
             titulo:"R2D2",
             descripcion: "Taza de Disney, Guerra de las Galaxias",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:7,
@@ -52,7 +52,7 @@ const tazas=[
             stock:10,
             titulo:"Dory",
             descripcion: "Taza de Disney,Buscando a Nemo",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:8,
@@ -60,7 +60,7 @@ const tazas=[
             stock:10,
             titulo:"Sombrerero Loco",
             descripcion: "Taza de Disney, Alicia en el País de las Maravillas",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:9,
@@ -68,7 +68,7 @@ const tazas=[
             stock:10,
             titulo:"Hulk 1",
             descripcion: "Taza de Disney, Avengers",
-            precio:"$3500",
+            precio:3500,
             categori: "Disney"
         },
         {   id:10,
@@ -76,15 +76,15 @@ const tazas=[
             stock:10,
             titulo:"Stitch 1",
             descripcion: "Taza de Disney, Stitch",
-            precio:"$4500",
+            precio:4500,
             categoria: "Disney"
         },
         {   id:11,
             img:"https://d3ugyf2ht6aenh.cloudfront.net/stores/806/999/products/taza-stitch-11-e197e4b1b9124d232116620000986402-480-0.webp",
             stock:10,
-            titulo:"Stitch 1",
+            titulo:"Stitch 2",
             descripcion: "Taza de Disney, Stitch",
-            precio:"$4500",
+            precio:4500,
             categoria: "Disney"
         },
         {   id:12,
@@ -92,7 +92,7 @@ const tazas=[
             stock:10,
             titulo:"Stormtrooper 1",
             descripcion: "Taza de Disney, Guerra de las Galaxias",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:13,
@@ -100,7 +100,7 @@ const tazas=[
             stock:10,
             titulo:"Hulk 2",
             descripcion: "Taza de Disney, Avengers",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:14,
@@ -108,7 +108,7 @@ const tazas=[
             stock:10,
             titulo:"Stormtrooper 2",
             descripcion: "Taza de Disney, Guerra de las Galaxias",
-            precio:"$5500",
+            precio:5500,
             categoria: "Disney"
         },
         {   id:15,
@@ -116,7 +116,7 @@ const tazas=[
             stock:10,
             titulo:"Capitan América",
             descripcion: "Taza de Disney, Avengers",
-            precio:"$3500",
+            precio:3500,
             categoria: "Disney"
         },
         {   id:16,
@@ -124,7 +124,7 @@ const tazas=[
             stock:10,
             titulo:"Mike Wazowski",
             descripcion: "Taza de Disney, Monsters Inc.",
-            precio:"$3500",
+            precio:3500,
             categoria: "Disney"
         },
         {   id:17,
@@ -132,7 +132,7 @@ const tazas=[
             stock:10,
             titulo:"Chip",
             descripcion: "Taza de Disney, La Bella y La Bestia",
-            precio:"$4500",
+            precio:4500,
             categoria: "Disney"
         },
         {   id:18,
@@ -140,7 +140,7 @@ const tazas=[
             stock:10,
             titulo:"Spiderman",
             descripcio: "Taza de Disney, Avengers",
-            precio:"$3500",
+            precio:3500,
             categoria: "Disney"
         },
         {   id:19,
@@ -148,7 +148,7 @@ const tazas=[
             stock:10,
             titulo:"Hedwig",
             descripcion: "Taza de Harry Potter",
-            precio:"$4500",
+            precio:4500,
             categoria: "Harry Potter"
         },
         {   id:20,
@@ -156,7 +156,7 @@ const tazas=[
             stock:10,
             titulo:"Espresso Patronum",
             descripcion: "Taza de Harry Potter",
-            precio:"$3500",
+            precio:3500,
             categorianp: "Harry Potter"
         },
         {   id:21,
@@ -164,7 +164,7 @@ const tazas=[
             stock:10,
             titulo:"Sorting Hat",
             descripcion: "Taza de Harry Potter",
-            precio:"$5500",
+            precio:5500,
             categoria: "Harry Potter"
         },
         {   id:22,
@@ -172,7 +172,7 @@ const tazas=[
             stock:10,
             titulo:"Caldero",
             descripcion: "Taza de Harry Potter",
-            precio:"$4500",
+            precio:4500,
             categoria: "Harry Potter"
         },
         {   id:23,
@@ -180,7 +180,7 @@ const tazas=[
             stock:10,
             titulo:"Slytherin",
             descripcion: "Taza de Harry Potter",
-            precio:"$3500",
+            precio:3500,
             categoria: "Harry Potter"
         },
         {   id:24,
@@ -188,7 +188,7 @@ const tazas=[
             stock:10,
             titulo:"Gryffindor",
             descripcion: "Taza de Harry Potter",
-            precio:"$3500",
+            precio:3500,
             categoria: "Harry Potter"
         },
         {   id:25,
@@ -196,7 +196,7 @@ const tazas=[
             stock:10,
             titulo:"Harry Potter 1",
             descripcion: "Taza de Harry Potter",
-            precio:"$5500",
+            precio:5500,
             categoria: "Harry Potter"
         },
         {   id:26,
@@ -204,7 +204,7 @@ const tazas=[
             stock:10,
             titulo:"Hogwarts 1",
             descripcion: "Taza de Harry Potter",
-            precio:"$3500",
+            precio:3500,
             categoria: "Harry Potter"
         },
         {   id:27,
@@ -212,7 +212,7 @@ const tazas=[
             stock:10,
             titulo:"Hogwarts 2",
             descripcion: "Taza de Harry Potter",
-            precio:"$3500",
+            precio:3500,
             categoria: "Harry Potter"
         },
         {   id:28,
@@ -220,7 +220,7 @@ const tazas=[
             stock:10,
             titulo:"Harry Potter 2",
             descripcion: "Taza de Harry Potter",
-            precio:"$3500",
+            precio:3500,
             categoria: "Harry Potter"
         },
         {   id:29,
@@ -228,7 +228,7 @@ const tazas=[
             stock:10,
             titulo:"World Best Boss",
             descripcion: "Taza de The Office ",
-            precio:"$2500",
+            precio:2500,
             categoria: "Series"
         },
         {   id:30,
@@ -236,7 +236,7 @@ const tazas=[
             stock:10,
             titulo:"Grey´s Anatomy",
             descripcion: "Taza de Grey´s Anatomy",
-            precio:"$3500",
+            precio:3500,
             categoria: "Series"
         },
         {   id:31,
@@ -244,7 +244,7 @@ const tazas=[
             stock:10,
             titulo:"You are my person",
             descripcion: "Taza de Grey´s Anatomy",
-            precio:"$3500",
+            precio:3500,
             categoria: "Series"
         },
         {   id:32,
@@ -252,7 +252,7 @@ const tazas=[
             stock:10,
             titulo:"Homero",
             descripcion: "Taza de Los Simpsons, Homero",
-            precio:"$3500",
+            precio:3500,
             categoria: "Series"
         },
         {   id:33,
@@ -260,7 +260,7 @@ const tazas=[
             stock:10,
             titulo:"El Juego del Calamar",
             descripcion: "Taza de El Juego del Calamar ",
-            precio:"$3500",
+            precio:3500,
             categoria: "Series"
         },
         {   id:34,
@@ -268,7 +268,7 @@ const tazas=[
             stock:10,
             titulo:"Hellfire Club",
             descripcion: "Taza de Stranger Things, Hellfire Club",
-            precio:"$2500",
+            precio:2500,
             categoria: "Series"
         },
         {   id:35,
@@ -276,7 +276,7 @@ const tazas=[
             stock:10,
             titulo:"King in the North",
             descripcion: "Taza de Juego de Tronos",
-            precio:"$2500",
+            precio:2500,
             categoria: "Series"
         },
         {   id:36,
@@ -284,7 +284,7 @@ const tazas=[
             stock:10,
             titulo:"I Drink and I Know Things",
             descripcion: "Taza de Juego de Tronos",
-            precio:"$2500",
+            precio:2500,
             categoria: "Series"
         },
         {   id:37,
@@ -292,7 +292,7 @@ const tazas=[
             stock:10,
             titulo:"Braking Bad",
             descripcion: "Taza de Braking Bad",
-            precio:"$3500",
+            precio:3500,
             categoria: "Series"
         },
         {   id:38,
@@ -300,7 +300,7 @@ const tazas=[
             stock:10,
             titulo:"Friends",
             descripcion: "Taza de Friends",
-            precio:"$4500",
+            precio:4500,
             categoria: "Series"
         }
     ]
