@@ -15,7 +15,7 @@ const ItemDetail = ({id,img,stock,titulo,descripcion,precio,categoria}) => {
         setCantidadAgregada(cantidad)
 
         const item = {
-            id, titulo, precio
+            id, titulo, precio, cantidad, 
         }
         addToCart(item, cantidad)
     }
