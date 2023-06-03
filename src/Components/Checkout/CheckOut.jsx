@@ -17,7 +17,7 @@ const CheckOut = () => {
             const objOrder = {
                 comprador: {name, phone, email},
                 items: cart,
-                total: total,
+                total: total(),
                 date: Timestamp.fromDate(new Date())
             }
 
@@ -47,7 +47,7 @@ const CheckOut = () => {
                 }
             })
 
-            if (outOfStock.length === 0) {
+            if (outOfStock.length !== 0) {
                 await batch.commit()
 
                 const orderRef = collection(db,'orders')
