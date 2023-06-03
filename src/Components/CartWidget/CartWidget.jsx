@@ -10,7 +10,7 @@ const CartWidget = () =>{
     return (
         <Link to='/cart' variant="outline-dark" className="cartWidget" style={{display: cantidadTotal > 0 ? 'block' : 'none'}}>
             <img className="carrito" src={carrito} alt="carrito-de-compra"/>
-            {cantidadTotal}
+            {cantidadTotal()}
         </Link>
     );
 };

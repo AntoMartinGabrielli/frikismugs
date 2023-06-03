@@ -1,5 +1,4 @@
 import { useState, useEffect} from "react";
-/* import { getTazas,  getTazaByCategory } from "../../MockTazas"; */
 import ItemList from "../ItemList/ItemList";
 import { useParams } from 'react-router-dom';
 import {getDocs, collection, query, where} from 'firebase/firestore';
@@ -34,19 +33,6 @@ const ItemListContainer =({greeting})=>{
             })
     }, [categoryId])
 
-    /* useEffect( () => {
-        const asyncFunc = categoryId ? getTazaByCategory : getTazas
-
-        asyncFunc(categoryId)
-            .then(resolve => {
-                setTazas(resolve)
-            })
-            .catch(error =>{
-                console.error(error)
-            })
-    },[categoryId])
-     */
-    
     return (
         <div>
             <h2>{greeting}</h2>
