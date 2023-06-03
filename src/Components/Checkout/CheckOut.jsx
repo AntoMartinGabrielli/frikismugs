@@ -1,4 +1,4 @@
-import {getDocs, documentId, collection, query, where, Timestamp, writeBatch, addDoc, } from 'firebase/firestore';
+import {getDocs, documentId, collection, query, where, Timestamp, writeBatch, addDoc } from 'firebase/firestore';
 import {db} from '../../Firebase/firebaseConfig';
 import CheckOutForm from '../CheckOutForm/CheckOutForm';
 import { useContext, useState } from 'react';

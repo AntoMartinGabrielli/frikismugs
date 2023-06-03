@@ -11,12 +11,12 @@ export const CartItem = ({ id, titulo, precio, cantidad, }) => {
 
     return(
     <Card className='cardCart' key={id}>
-        <Card.Body>
+        <Card.Body className='cardBody'>
             <Card.Title>{titulo}</Card.Title>
             <Card.Text>Cantidad {cantidad}</Card.Text>
             <Card.Text>Precio por unidad ${precio}</Card.Text>
             <Card.Text>Subtotal ${precio*cantidad}</Card.Text>
-            <Button onClick={() => removeItem(id)}>X</Button>
+            <Button variant="outline-dark" onClick={() => removeItem(id)}>X</Button>
         </Card.Body>
     </Card>
     )

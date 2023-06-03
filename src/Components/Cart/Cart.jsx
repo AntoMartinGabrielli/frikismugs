@@ -8,7 +8,6 @@ import CartItem from '../CartItem/CartItem';
 const Cart = () =>{
     const { cart, clearCart, cantidadTotal, total } = useContext(CartContext) 
 
-
     if (cantidadTotal === 0) {
         return (
             <div>
@@ -18,16 +17,17 @@ const Cart = () =>{
         )
     }
 
-    return (
+    return(
         <div className='cart'>
+            {cart.length == 0 ? 
+            <h1>Carrito vacío</h1> : <>
             {cart.map(item => <CartItem key={item.id} {...item}/>)}
             <h3>Total: ${total()}</h3>
             <div className='button'>
-                <Button variant="outline-light" onClick={() => clearCart()} className='Button'>Limpiar Carrito</Button>
-            <Button variant="outline-light">
-                <Link to='/checkout' className='Option'>Checkout</Link>
-            </Button>
+                <Button variant="outline-light" onClick={() => clearCart()} className="Button">Limpiar Carrito</Button>
+                <Button variant="outline-light"><Link to="/checkout" className="Option">Checkout</Link></Button>
             </div>
+            </>}
         </div>
     )
 }

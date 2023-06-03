@@ -1,0 +1,14 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Label{
+    padding: 15px;
+    font-weight: bold;
+}
+
+.Input{
+    border-radius: 5px;
+}

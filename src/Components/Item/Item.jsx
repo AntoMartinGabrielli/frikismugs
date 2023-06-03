@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
-export const Item = ({id, img, stock, titulo, descripcion, precio, categoria}) => {
+export const Item = ({id, img, titulo, descripcion, precio}) => {
     return (
         <Card className="item">
             <Card.Img src={img} ></Card.Img>

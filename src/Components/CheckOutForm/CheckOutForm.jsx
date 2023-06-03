@@ -24,7 +24,7 @@ const CheckOutForm = ({onConfirm}) => {
                     <input className='Input' type='text' value={name} onChange={({target}) => setName(target.value)}></input>
                 </label>
                 <label className='Label'>
-                    Número telefonico
+                    Telefono
                     <input className='Input' type='text' value={phone} onChange={({target}) => setPhone(target.value)}></input>
                 </label>
                 <label className='Label'>

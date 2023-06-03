@@ -1,5 +1,8 @@
-.cardCart{
+.cardBody{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(230, 226, 226);
+    color:#282c34;
 }
+
